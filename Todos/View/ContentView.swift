@@ -68,7 +68,6 @@ struct ContentView: View {
                             .opacity(0.1)
                             .frame(width: 88, height: 88, alignment: .center)
                     }
-
                     
                     Button(action: {
                         self.showingAddTodoView.toggle()

@@ -33,12 +33,12 @@ struct EmptyListView: View {
     // MARK: - BODY
     var body: some View {
         ZStack {
-            VStack(alignment: .center, spacing: 20) {
+            VStack(alignment: .center, spacing: 60) {
                 Image("\(images.randomElement() ?? self.images[0])")
                     .renderingMode(.template)
                     .resizable()
                     .scaledToFit()
-                    .frame(minWidth: 256, idealWidth: 280, maxWidth: 360, minHeight: 256, idealHeight: 280, maxHeight: 360, alignment: .center)
+                    .frame(minWidth: 256, idealWidth: 280, maxWidth: 300, minHeight: 256, idealHeight: 280, maxHeight: 300, alignment: .center)
                     .layoutPriority(1)
                     .foregroundColor(.blue)
                 
