@@ -14,6 +14,7 @@ struct ContentView: View {
     
     @FetchRequest(entity: Todo.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Todo.name, ascending: true)]) var todos: FetchedResults<Todo>
     
+    @State private var showingSettingsView: Bool = false
     @State private var showingAddTodoView: Bool = false
     @State private var animatingButton: Bool = false
     
@@ -39,13 +40,14 @@ struct ContentView: View {
                     leading: EditButton(),
                     trailing:
                     Button(action: {
-                    //Show add todo view
-                        self.showingAddTodoView.toggle()
+                    //Show settings view
+                        self.showingSettingsView.toggle()
                     }) {
-                        Image(systemName: "plus")
-                    } // END: ADD BUTTON
-                        .sheet(isPresented: $showingAddTodoView) {
-                            AddTodoView().environment(\.managedObjectContext, self.managedObjectContext)
+                        Image(systemName: "paintbrush")
+                            .imageScale(.large)
+                    } // END: SETTINGS BUTTON
+                        .sheet(isPresented: $showingSettingsView) {
+                            SettingsView()
                         }
             )
                 // MARK: - NO TODO ITEMS
@@ -68,7 +70,6 @@ struct ContentView: View {
                             .opacity(0.1)
                             .frame(width: 88, height: 88, alignment: .center)
                     }
-
                     
                     Button(action: {
                         self.showingAddTodoView.toggle()
