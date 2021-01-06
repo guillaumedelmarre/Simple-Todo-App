@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0536D8625A5E240009508A7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0536D8525A5E240009508A7 /* SettingsView.swift */; };
+		F0536D8925A5EBB6009508A7 /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0536D8825A5EBB6009508A7 /* FormRowStaticView.swift */; };
+		F0536D8C25A5F190009508A7 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0536D8B25A5F190009508A7 /* FormRowLinkView.swift */; };
 		F0EB39CE25A4C83C00DCDF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB39CD25A4C83C00DCDF4A /* AppDelegate.swift */; };
 		F0EB39D025A4C83C00DCDF4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB39CF25A4C83C00DCDF4A /* SceneDelegate.swift */; };
 		F0EB39D225A4C83C00DCDF4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB39D125A4C83C00DCDF4A /* ContentView.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0536D8525A5E240009508A7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F0536D8825A5EBB6009508A7 /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		F0536D8B25A5F190009508A7 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
 		F0EB39CA25A4C83C00DCDF4A /* Todo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0EB39CD25A4C83C00DCDF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0EB39CF25A4C83C00DCDF4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +94,9 @@
 				F0EB39D125A4C83C00DCDF4A /* ContentView.swift */,
 				F0EB39E725A4C87400DCDF4A /* AddTodoView.swift */,
 				F0EB39F025A4CF5A00DCDF4A /* EmptyListView.swift */,
+				F0536D8525A5E240009508A7 /* SettingsView.swift */,
+				F0536D8825A5EBB6009508A7 /* FormRowStaticView.swift */,
+				F0536D8B25A5F190009508A7 /* FormRowLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0536D8625A5E240009508A7 /* SettingsView.swift in Sources */,
+				F0536D8925A5EBB6009508A7 /* FormRowStaticView.swift in Sources */,
+				F0536D8C25A5F190009508A7 /* FormRowLinkView.swift in Sources */,
 				F0EB39CE25A4C83C00DCDF4A /* AppDelegate.swift in Sources */,
 				F0EB39D025A4C83C00DCDF4A /* SceneDelegate.swift in Sources */,
 				F0EB39F125A4CF5A00DCDF4A /* EmptyListView.swift in Sources */,
